@@ -60,7 +60,7 @@ const mistral = async (m, Matrix) => {
         const text = m.body.trim();
 
         if (text === `@${botNumber}` || text === `@${ownerNumber}`) {
-            await Matrix.sendMessage(m.from, { audio: { url: 'https://telegra.ph/file/44826e95f6e863548e408.jpg' } }, { quoted: m });
+            await Matrix.sendMessage(m.from, { audio: { url: 'https://graph.org/file/14c9e1c99f5f2b1ad693d.jpg' } }, { quoted: m });
             return;
         }
 
