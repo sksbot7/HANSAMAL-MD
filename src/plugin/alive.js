@@ -12,13 +12,10 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*𝙎𝙆𝙎 𝘽𝙊𝙏☮︎ I am Alive 😹🫵🏻*
+  const uptimeMessage = `*HANSAMAL-MD Status Overview*
 _________________________________________
 
-*📆 ${days} Day*
-*🕰️ ${hours} Hour*
-*⏳ ${minutes} Minute*
-*⏲️ ${seconds} Second*
+*📆 ${days} Day$ , {hours} Hour, ${minutes} Minutes , {seconds} Second*
 _________________________________________
 `;
 
@@ -31,17 +28,17 @@ _________________________________________
           })
         },
         {
+                  name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'Contact Owner',
+             url:'https://wa.me/+919888280858?text=HI',
+                  }),
+                },
+        {
           "name": "quick_reply",
           "buttonParamsJson": JSON.stringify({
             display_text: "PING",
             id: `.ping`
-          })
-        },
-        {
-          "name": "quick_reply",
-          "buttonParamsJson": JSON.stringify({
-            display_text: "മുതലാളി",
-            id: `.owner`
           })
         }
         ];
@@ -58,7 +55,7 @@ _________________________________________
             text: uptimeMessage
           }),
           footer: proto.Message.InteractiveMessage.Footer.create({
-            text: "© Powered By 𝙎𝙆𝙎 𝘽𝙊𝙏☮︎"
+            text: "© Powered By "
           }),
           header: proto.Message.InteractiveMessage.Header.create({
             title: "",
