@@ -8,7 +8,7 @@ const ping = async (m, sock) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `*_🔥SKS-BOT SPEED: ${responseTime.toFixed(2)} s_*`;
+    const text = `*_🔥ഉമ്പിയ SPEED: ${responseTime.toFixed(2)} s_*`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
