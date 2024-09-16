@@ -22,7 +22,7 @@ const instaDownload = async (m, Matrix) => {
 
       if (result.success && result.data && result.data.length > 0) {
         const mediaUrl = result.data[0].url_download; // Use the first media URL from the array
-        const caption = "© Powered By HANSAMAL-MD";
+        const caption = "© Powered By 𝙎𝙆𝙎 𝘽𝙊𝙏☮︎";
 
         await Matrix.sendMedia(m.from, mediaUrl, 'file', caption, m);
         await m.React('✅');
