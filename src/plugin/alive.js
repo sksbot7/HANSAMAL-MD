@@ -12,13 +12,12 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*HANSAMAL-MD Status Overview*
+  const uptimeMessage = `*𝙎𝙆𝙎 𝘽𝙊𝙏☮︎*
 _________________________________________
 
-*📆 ${days} Day$ , {hours} Hour, ${minutes} Minutes , {seconds} Second*
+*📆 $ {days} Day $ , {hours} Hour, $ {minutes} Minutes , {seconds} Second*
 _________________________________________
 `;
-
   const buttons = [
         {
           "name": "quick_reply",
