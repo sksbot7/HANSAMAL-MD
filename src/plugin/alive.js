@@ -12,7 +12,7 @@ const alive = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).toLowerCase() : '';
     if (['alive', 'uptime', 'runtime'].includes(cmd)) {
 
-  const uptimeMessage = `*𝙎𝙆𝙎 𝘽𝙊𝙏☮︎ Status Overview*
+  const uptimeMessage = `*𝙎𝙆𝙎 𝘽𝙊𝙏☮︎ I am Alive 😹🫵🏻*
 _________________________________________
 
 *📆 ${days} Day*
@@ -40,7 +40,7 @@ _________________________________________
         {
           "name": "quick_reply",
           "buttonParamsJson": JSON.stringify({
-            display_text: "OWNER",
+            display_text: "മുതലാളി",
             id: `.owner`
           })
         }
