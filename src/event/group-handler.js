@@ -30,7 +30,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                      previewType: 0,
                      renderLargerThumbnail: true,
                      thumbnailUrl: metadata.subject,
-                     sourceUrl: 'https://sid-bhai.vercel.app'
+                     sourceUrl: 'https://sy4m.vercel.app'
                   }
                }
             })
@@ -48,7 +48,7 @@ export default async function GroupParticipants(sock, { id, participants, action
                      previewType: 0,
                      renderLargerThumbnail: true,
                      thumbnailUrl: profile,
-                     sourceUrl: 'https://sid-bhai.vercel.app'
+                     sourceUrl: 'https://sy4m.vercel.app'
                   }
                }
             })
