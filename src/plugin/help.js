@@ -36,9 +36,9 @@ const seconds = Math.floor(uptime % 60); // Calculate seconds
 const uptimeMessage = `*I am alive now since ${day}d ${hours}h ${minutes}m ${seconds}s*`;
 const runMessage = `*☀️ ${day} Day*\n*🕐 ${hours} Hour*\n*⏰ ${minutes} Minutes*\n*⏱️ ${seconds} Seconds*\n`;
 
-const xtime = moment.tz("Asia/Colombo").format("HH:mm:ss");
-const xdate = moment.tz("Asia/Colombo").format("DD/MM/YYYY");
-const time2 = moment().tz("Asia/Colombo").format("HH:mm:ss");
+const xtime = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+const xdate = moment.tz("Asia/Kolkata").format("DD/MM/YYYY");
+const time2 = moment().tz("Asia/Kolkata").format("HH:mm:ss");
 let pushwish = "";
 
 if (time2 < "05:00:00") {
@@ -90,17 +90,17 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *SKSBOT-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
-│👤 ɴᴜᴍʙᴇʀ: 94711262551
+│👨‍💻 ᴏᴡɴᴇʀ : *S Y 4 M*      
+│👤 ɴᴜᴍʙᴇʀ: 919888280858
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By HANSAMAL-MD"
+              text: "© Powered By ig|_sks_bot_"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/HANSAMAL.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -116,67 +116,67 @@ let mode = ethix.public ? 'public' : 'private';
                   "buttonParamsJson": `{"title":"ᴛᴀᴘ ʜᴇʀᴇ",
                  "sections":
                    [{
-                    "title":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ ᴍᴇɴᴜ",
+                    "title":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎ ᴍᴇɴᴜ",
                     "highlight_label":"ᴀʟʟ ᴍᴇɴᴜ",
                     "rows":[
                       {
                        "header":"",
                        "title":"ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                       "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
                         "title":"ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
                         "title":"ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎,
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴀɪ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Search Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴛᴀʟᴋ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Stalk Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴄᴏɴᴠᴇʀᴛᴇʀ ᴍᴇɴᴜ",
-                        "description":"ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
+                        "description":"𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                         "id":"Converter Menu"
                       }
                     ]}
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "SY4M-ser😹",
                   serverMessageId: 143
                 }
               }
@@ -207,10 +207,10 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝙎𝙆𝙎 𝘽𝙊𝙏☮︎*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
-│👤 ɴᴜᴍʙᴇʀ: 94711262551
+│👨‍💻 ᴏᴡɴᴇʀ : *𝘚 𝘠 4 𝘔*      
+│👤 ɴᴜᴍʙᴇʀ: 919888280858
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
@@ -323,8 +323,8 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `HANSAMAL-MD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HANSAMAL-MD'\nitem1.TEL;waid=${
+                    displayName: 𝙎𝙆𝙎 𝘽𝙊𝙏☮︎,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'ig|_sks_bot_'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
@@ -341,7 +341,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -380,7 +380,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -446,7 +446,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -485,7 +485,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -521,7 +521,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -549,7 +549,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -580,7 +580,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -612,7 +612,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
@@ -645,7 +645,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "𝙎𝙆𝙎 𝘽𝙊𝙏☮︎",
                   serverMessageId: 143
                 }
               }
