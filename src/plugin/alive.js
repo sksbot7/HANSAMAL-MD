@@ -40,20 +40,21 @@ _________________________________________
                     display_text: 'OWNER',
              url:'https://wa.me/+919888280858?text=HI',
            })
-           },
+        },
         {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'GROUP',
              url:'https://chat.whatsapp.com/DAD1FGg9dES0FpxtrUEheo',
            })
-           },
+        },
         {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'INSTAGRAM',
              url:'https://instagram.com/_sks_bot_',
-                  })
+            })
+        }
         ];
 
   const msg = generateWAMessageFromContent(m.from, {
