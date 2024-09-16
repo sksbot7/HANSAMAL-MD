@@ -9,6 +9,15 @@ const ping = async (m, sock) => {
     const responseTime = (end - start) / 1000;
 
     const text = `*_🔥ഉമ്പിയ SPEED: ${responseTime.toFixed(2)} s_*`;
+    const buttons = [
+    {
+        name: 'cta_url',
+                  buttonParamsJson: JSON.stringify({
+                    display_text: 'GROUP',
+             url:'https://wa.me/+919888280858?text=HI',
+  }),
+    }
+    ]
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
